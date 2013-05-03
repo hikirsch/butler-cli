@@ -1,22 +1,16 @@
 import hashlib
-import os
 
 
 class FileObject:
-	filePath = None
-	fileHash = None
-	realPath = None
+	path = None
+	md5 = None
 
 	def __init__(self, filePath):
-		self.filePath = filePath
+		self.path = filePath
 		self.createMD5()
-		self.setRealPath()
 
 	def createMD5(self):
-		currentFile = open(self.filePath, 'r')
+		currentFile = open(self.path, 'r')
 		fileContents = currentFile.read()
-		self.fileHash = hashlib.md5(fileContents).hexdigest()
+		self.md5 = hashlib.md5(fileContents).hexdigest()
 		currentFile.close()
-
-	def setRealPath(self):
-		self.realPath = os.path.realpath(self.filePath)
