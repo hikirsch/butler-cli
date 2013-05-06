@@ -1,9 +1,12 @@
-import hashlib
+# import pyrsync
+# from pyrsync.pyrsync import blockchecksums
+# from pyrsync import pyrsync.pyrsync
+from pyrsync import pyrsync
 
 
 class FileObject:
 	path = None
-	md5 = None
+	sha256 = None
 
 	def __init__(self, filePath):
 		self.path = filePath
@@ -11,6 +14,7 @@ class FileObject:
 
 	def createMD5(self):
 		currentFile = open(self.path, 'r')
-		fileContents = currentFile.read()
-		self.md5 = hashlib.md5(fileContents).hexdigest()
+
+		self.sha256 = pyrsync.blockchecksums(currentFile)
+
 		currentFile.close()

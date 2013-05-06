@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daa16e34-25e6-4896-9a99-41fd1441e9d6" name="Default" comment="" />
+    <list default="true" id="daa16e34-25e6-4896-9a99-41fd1441e9d6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/CopyController.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/FileListObject.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/FileObject.py" afterPath="$PROJECT_DIR$/src/main/FileObject.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="JenkinsCopy.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Copy.py" changelist="daa16e34-25e6-4896-9a99-41fd1441e9d6" time="1367614682690" ignored="false" />
+    <file path="/Copy.py" changelist="daa16e34-25e6-4896-9a99-41fd1441e9d6" time="1367615466525" ignored="false" />
     <file path="/source.txt" changelist="daa16e34-25e6-4896-9a99-41fd1441e9d6" time="1367615090077" ignored="false" />
-    <file path="/FileObject.py" changelist="daa16e34-25e6-4896-9a99-41fd1441e9d6" time="1367594933863" ignored="false" />
-    <file path="/a.py" changelist="daa16e34-25e6-4896-9a99-41fd1441e9d6" time="1367594300108" ignored="false" />
+    <file path="/FileObject.py" changelist="daa16e34-25e6-4896-9a99-41fd1441e9d6" time="1367861960465" ignored="false" />
+    <file path="/a.py" changelist="daa16e34-25e6-4896-9a99-41fd1441e9d6" time="1367857394403" ignored="false" />
     <file path="$PROJECT_DIR$/../ls2pac2/src/test/javascript/ListsTests.js" changelist="daa16e34-25e6-4896-9a99-41fd1441e9d6" time="1367594107903" ignored="false" />
     <file path="/FileObjectTests.py" changelist="daa16e34-25e6-4896-9a99-41fd1441e9d6" time="1367596293788" ignored="false" />
     <file path="/FileListObject.py" changelist="daa16e34-25e6-4896-9a99-41fd1441e9d6" time="1367615417933" ignored="false" />
@@ -15,6 +21,7 @@
     <file path="/base.js" changelist="daa16e34-25e6-4896-9a99-41fd1441e9d6" time="1367614986119" ignored="false" />
     <file path="/cssStuff.css" changelist="daa16e34-25e6-4896-9a99-41fd1441e9d6" time="1367615021657" ignored="false" />
     <file path="/index.html" changelist="daa16e34-25e6-4896-9a99-41fd1441e9d6" time="1367615054101" ignored="false" />
+    <file path="/Dummy.txt" changelist="daa16e34-25e6-4896-9a99-41fd1441e9d6" time="1367857282702" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +36,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -66,6 +72,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -75,13 +82,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CopyController.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="CopyController.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/CopyController.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="52" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state line="58" column="44" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.8489933">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,81 +94,34 @@
       <file leaf-file-name="FileObject.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/FileObject.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+            <state line="19" column="27" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileListObject.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pyrsync.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/pyrsync-0.1.0-py2.7.egg/pyrsync/pyrsync.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="39" selection-start="2788" selection-end="2794" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileListObject.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/FileListObject.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="41" selection-start="298" selection-end="298" vertical-scroll-proportion="0.4519774">
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestData/src/js/base.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="otherSettings.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestData/src/css/otherSettings.css">
+      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/pyrsync-0.1.0-py2.7.egg/pyrsync/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cssStuff.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestData/src/css/cssStuff.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="1" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestData/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="11" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="help.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestData/src/help.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="os.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="265" column="0" selection-start="8605" selection-end="8605" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileObjectTests.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/FileObjectTests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="59" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+            <state line="9" column="24" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,6 +134,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -185,19 +151,20 @@
         <option value="$PROJECT_DIR$/src/test/FileObjectTests.py" />
         <option value="$PROJECT_DIR$/src/tests/FileObjectTests.py" />
         <option value="$PROJECT_DIR$/src/main/Copy.py" />
-        <option value="$PROJECT_DIR$/src/main/FileObject.py" />
-        <option value="$PROJECT_DIR$/src/main/CopyController.py" />
         <option value="$PROJECT_DIR$/TestData/src/js/base.js" />
         <option value="$PROJECT_DIR$/TestData/src/css/otherSettings.css" />
         <option value="$PROJECT_DIR$/TestData/src/css/cssStuff.css" />
         <option value="$PROJECT_DIR$/TestData/src/index.html" />
         <option value="$PROJECT_DIR$/TestData/src/source.txt" />
         <option value="$PROJECT_DIR$/src/main/FileListObject.py" />
+        <option value="$PROJECT_DIR$/src/main/CopyController.py" />
+        <option value="/Library/Python/2.7/site-packages/pyrsync-0.1.0-py2.7.egg/pyrsync/__init__.py" />
+        <option value="$PROJECT_DIR$/src/main/FileObject.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1450" />
+    <option name="x" value="1440" />
     <option name="y" value="-605" />
     <option name="width" value="1680" />
     <option name="height" value="1050" />
@@ -228,7 +195,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -366,26 +332,28 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.Python" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.10460251" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -495,6 +463,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -508,14 +484,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -635,29 +603,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1450" y="-605" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="1440" y="-605" width="1680" height="1050" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39892474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39892474" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.6010753" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.67096776" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47634408" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -719,111 +687,33 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/CopyController.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/FileListObject.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/src/main/FileListObject.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="19" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="47" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/distutils/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/hashlib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="2279" selection-end="2279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea12/python_stubs/596071422/__builtin__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="452" column="4" selection-start="13524" selection-end="13524" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/FileObjectTests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="59" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="265" column="0" selection-start="8605" selection-end="8605" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/CopyController.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="16" column="59" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestData/src/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestData/src/css/otherSettings.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestData/src/css/cssStuff.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="1" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestData/src/index.html">
@@ -835,24 +725,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestData/src/help.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/IntelliJIdea12/python/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1115" column="0" selection-start="46680" selection-end="46680" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="265" column="0" selection-start="8605" selection-end="8605" vertical-scroll-proportion="0.33333334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/FileListObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/collections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="62" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/hashlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="26" selection-start="1557" selection-end="1559" vertical-scroll-proportion="0.7128713" />
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/pyrsync-0.1.0-py2.7.egg/pyrsync/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/pyrsync-0.1.0-py2.7.egg/pyrsync/pyrsync.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="39" selection-start="2788" selection-end="2794" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/FileObject.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+        <state line="19" column="27" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/FileListObject.py">
+    <entry file="file://$PROJECT_DIR$/src/main/CopyController.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="41" selection-start="298" selection-end="298" vertical-scroll-proportion="0.4519774">
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state line="58" column="44" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.8489933">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -889,7 +820,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.10460251" />
               </list>
             </option>
           </splitter-proportions>
@@ -901,7 +832,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.10729614" />
               </list>
             </option>
           </splitter-proportions>
